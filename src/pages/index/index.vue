@@ -193,11 +193,10 @@ export default {
     width: 100%;
     height: 660px;
     position: fixed;
-    bottom: 170px;
+    bottom: 210px;
     .M1 {
       width: 710px;
       padding: 20px;
-      padding-top: 40px;
       display: flex;
       justify-content: space-around;
       flex-wrap: wrap;
@@ -216,11 +215,11 @@ export default {
       }
       .animations {
         animation: bounce-in 1s;
-        animation-delay: 0.5s;
+        animation-delay: 0.2s;
       }
       @keyframes bounce-in {
         0% {
-          transform: scale(0.8);
+          transform: scale(1);
         }
         50% {
           transform: scale(1.5);
@@ -284,7 +283,7 @@ export default {
     width: 100%;
     height: 280px;
     position: fixed;
-    bottom: 840px;
+    bottom: 860px;
     .btnbox2 {
       padding: 8px 0;
       display: flex;
