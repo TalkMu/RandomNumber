@@ -113,28 +113,17 @@ export default {
     },
     arrDeWeight() {
       let newArr = [];
-      for (let index = 1; index <= this.plainIndex; index++) {
+      for (let index = 1; index <= 50; index++) {
         let num = Math.ceil(Math.random() * 80);
         if (newArr.indexOf(num) === -1) {
           newArr.push(num);
         }
-      }
-      if (newArr.length != this.plainIndex) {
-        newArr = this.getNewArr(newArr);
-      }
-       if(newArr.length == undefined) {
-        debugger
-      }
-      if (newArr.length === this.plainIndex) {
+        if (newArr.length === this.plainIndex) {
         return newArr;
       }
-
-      // let nums = Math.ceil(Math.random() * 80);
+      }
     },
     getNewArr(arr) {
-      if(arr.length == undefined) {
-        debugger
-      }
       let a = this.plainIndex - arr.length;
       for (let index = 1; index <= a; index++) {
         let num = Math.ceil(Math.random() * 80);
