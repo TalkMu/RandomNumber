@@ -109,7 +109,7 @@ export default {
     changePlain(type) {
       this.btnFlag = false;
       this.plain = type;
-      this.changeM2plain(this.plainIndexM2)
+      this.changeM2plain(this.plainIndexM2);
     },
     arrDeWeight() {
       let newArr = [];
@@ -122,6 +122,9 @@ export default {
       if (newArr.length != this.plainIndex) {
         newArr = this.getNewArr(newArr);
       }
+       if(newArr.length == undefined) {
+        debugger
+      }
       if (newArr.length === this.plainIndex) {
         return newArr;
       }
@@ -129,6 +132,9 @@ export default {
       // let nums = Math.ceil(Math.random() * 80);
     },
     getNewArr(arr) {
+      if(arr.length == undefined) {
+        debugger
+      }
       let a = this.plainIndex - arr.length;
       for (let index = 1; index <= a; index++) {
         let num = Math.ceil(Math.random() * 80);
@@ -169,7 +175,7 @@ export default {
     },
     checkBtn(num) {
       this.plainIndex = num;
-      this.changeM2plain(this.plainIndexM2)
+      this.changeM2plain(this.plainIndexM2);
     },
   },
 };
@@ -186,9 +192,9 @@ export default {
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 12vh;
-    line-height: 12vh;
-    font-size: 5vh;
+    height: 160px;
+    line-height: 160px;
+    font-size: 60px;
     border: 0;
     border-radius: 0;
     color: #fff;
@@ -196,10 +202,9 @@ export default {
   }
   .st {
     width: 100%;
-    height: 60vh;
-    color: red;
+    height: 660px;
     position: fixed;
-    bottom: 14vh;
+    bottom: 170px;
     .M1 {
       width: 710px;
       padding: 20px;
@@ -239,13 +244,12 @@ export default {
     .M2 {
       width: 100%;
       height: 100%;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
+      padding: 10px 0;
       .plain2Btn {
-        padding: 20px 0;
+        padding: 10px 0;
         width: 700px;
         height: 100px;
+        margin: 0 auto;
         display: flex;
         flex-wrap: nowrap;
         justify-content: space-around;
@@ -259,7 +263,7 @@ export default {
       }
       .plain2boxs {
         width: 100%;
-        height: 45vh;
+        height: 450px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -267,8 +271,8 @@ export default {
         padding: 6px 0;
         .items {
           width: 100%;
-          height: 6vh;
-          margin: 20px 0;
+          height: 66px;
+          margin: 8px 0;
           border-left: 10px solid #f71b1b;
           display: flex;
           justify-content: center;
@@ -289,24 +293,27 @@ export default {
   }
   .btnBoxbig {
     width: 100%;
-    height: 20vh;
+    height: 280px;
     position: fixed;
-    bottom: 76vh;
+    bottom: 840px;
     .btnbox2 {
+      padding: 8px 0;
       display: flex;
       justify-content: space-around;
       flex-wrap: wrap;
       .headBtn {
-        height: 6vh;
-        line-height: 6vh;
-        width: 32vw;
+        height: 80px;
+        line-height: 80px;
+        width: 220px;
       }
       .checkBtn {
-        height: 6vh;
-        line-height: 6vh;
-        width: 16vw;
-        margin: 2vw;
-        font-size: 3vw;
+        height: 72px;
+        line-height: 72px;
+        width: 120px;
+        margin: 8px 4px;
+        font-size: 28px;
+        padding: 0;
+        text-align: center;
       }
     }
   }
