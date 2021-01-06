@@ -1,5 +1,5 @@
 const config = {
-  projectName: 'getNumber',
+  projectName: 'RandomNumber',
   date: '2021-1-5',
   designWidth: 750,
   deviceRatio: {

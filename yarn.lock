@@ -1065,10 +1065,10 @@
     resolve "1.15.1"
     yauzl "2.10.0"
 
-"@tarojs/mini-runner@3.0.22":
+"@tarojs/mini-runner@^3.0.22":
   version "3.0.22"
-  resolved "https://registry.npm.taobao.org/@tarojs/mini-runner/download/@tarojs/mini-runner-3.0.22.tgz?cache=0&sync_timestamp=1609763273736&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40tarojs%2Fmini-runner%2Fdownload%2F%40tarojs%2Fmini-runner-3.0.22.tgz#7bc6f534ae5939a6eaf787e113cb281f71e13ffb"
-  integrity sha1-e8b1NK5ZOabq94fhE8soH3HhP/s=
+  resolved "https://registry.yarnpkg.com/@tarojs/mini-runner/-/mini-runner-3.0.22.tgz#7bc6f534ae5939a6eaf787e113cb281f71e13ffb"
+  integrity sha512-kbW5J0XVqqWgP6C0G2QvkaNTEPH1uwthGWF9vzCEDEo2I9DP39dIiNFZMDhFvgMHhDwjsmongJVpK1m0PTkppA==
   dependencies:
     "@babel/core" "7.11.1"
     "@babel/plugin-proposal-class-properties" "7.10.4"

@@ -8,7 +8,7 @@
           :plain="!plain"
           @tap="changePlain(true)"
         >
-          单选
+          单选模式
         </button>
         <button
           class="headBtn"
@@ -16,7 +16,7 @@
           :plain="plain"
           @tap="changePlain(false)"
         >
-          多选
+          多选模式
         </button>
       </view>
       <view class="btnbox2">
