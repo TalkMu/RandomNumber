@@ -122,7 +122,6 @@ export default {
       if (newArr.length != this.plainIndex) {
         newArr = this.getNewArr(newArr);
       }
-      if (newArr.length === undefined) debugger;
       if (newArr.length === this.plainIndex) {
         return newArr;
       }
