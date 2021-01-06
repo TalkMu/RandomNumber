@@ -78,10 +78,10 @@ export default {
   data() {
     return {
       btnFlag: false,
-      plainIndex: 8,
-      plain: false,
+      plainIndex: 5,
+      plain: true,
       selectArr: [],
-      plainIndexM2: 5,
+      plainIndexM2: 2,
       selectArr2: [],
     };
   },
@@ -109,6 +109,7 @@ export default {
     changePlain(type) {
       this.btnFlag = false;
       this.plain = type;
+      this.changeM2plain(this.plainIndexM2)
     },
     arrDeWeight() {
       let newArr = [];
@@ -169,6 +170,7 @@ export default {
     },
     checkBtn(num) {
       this.plainIndex = num;
+      this.changeM2plain(this.plainIndexM2)
     },
   },
 };
