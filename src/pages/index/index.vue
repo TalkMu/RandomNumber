@@ -207,7 +207,7 @@ export default {
         margin: 8px 6px;
         line-height: 56px;
         border-radius: 50%;
-        border: 1px solid #fff;
+        border: 2px solid #fff;
         color: #fff;
         text-align: center;
       }
