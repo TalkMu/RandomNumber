@@ -1,7 +1,9 @@
 <template>
   <view class="pageIndex">
     <view class="banner-layout">
-      <ad unit-id="adunit-aa9793e7ad4a60d3" ad-intervals="30"></ad>
+<!--      <ad unit-id="adunit-aa9793e7ad4a60d3" ad-intervals="30"></ad>-->
+      <!-- 小程序2 -->
+      <ad unit-id="adunit-438b892f7f05cd30" ad-intervals="30"></ad>
     </view>
     <view class="btnBoxbig">
       <view class="btnbox2">
@@ -206,8 +208,8 @@
       bottom: 0;
       left: 0;
       width: 100%;
-      height: 160px;
-      line-height: 160px;
+      height: 120px;
+      line-height: 120px;
       font-size: 60px;
       border: 0;
       border-radius: 0;
@@ -216,22 +218,23 @@
     }
 
     .st {
-      width: 100%;
-      height: 660px;
+      margin: auto;
+      width: 730px;
       position: relative;
-      //bottom: 210px;
+      //border: 1px solid #fff;
+      height: 566px;
       .M1 {
-        width: 710px;
-        padding: 20px;
+        margin: auto;
+        padding: 10px;
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
 
         .numD {
-          width: 56px;
-          height: 56px;
-          margin: 8px 6px;
-          line-height: 56px;
+          width: 50px;
+          height: 50px;
+          margin: 6px 8px;
+          line-height: 50px;
           border-radius: 50%;
           border: 2px solid #fff;
           color: #fff;
@@ -263,10 +266,7 @@
       .M2 {
         width: 100%;
         height: 100%;
-        padding: 10px 0;
-
         .plain2Btn {
-          padding: 10px 0;
           width: 700px;
           height: 100px;
           margin: 0 auto;
@@ -285,17 +285,15 @@
 
         .plain2boxs {
           width: 100%;
-          height: 450px;
+          height: 400px;
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: center;
-          padding: 6px 0;
-
           .items {
             width: 100%;
-            height: 66px;
-            margin: 8px 0;
+            height: 60px;
+            margin: 5px 0;
             border-left: 10px solid #f71b1b;
             display: flex;
             justify-content: center;
@@ -317,19 +315,17 @@
     }
 
     .btnBoxbig {
-      width: 100%;
-      height: 280px;
+      margin: auto;
+      width: 730px;
       position: relative;
-      //bottom: 860px;
       .btnbox2 {
-        padding: 8px 0;
+        padding: 2px 0;
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
-
         .headBtn {
-          height: 80px;
-          line-height: 80px;
+          height: 60px;
+          line-height: 60px;
           width: 220px;
         }
 
