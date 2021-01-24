@@ -1,9 +1,9 @@
 <template>
   <view class="pageIndex">
     <view class="banner-layout">
-<!--      <ad unit-id="adunit-aa9793e7ad4a60d3" ad-intervals="30"></ad>-->
+      <ad unit-id="adunit-aa9793e7ad4a60d3" ad-intervals="30"></ad>
       <!-- 小程序2 -->
-      <ad unit-id="adunit-438b892f7f05cd30" ad-intervals="30"></ad>
+<!--      <ad unit-id="adunit-438b892f7f05cd30" ad-intervals="30"></ad>-->
     </view>
     <view class="btnBoxbig">
       <view class="btnbox2">
