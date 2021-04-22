@@ -61,7 +61,7 @@
             :plain="plainIndexM2 != i"
             @tap="changeM2plain(i)"
           >
-            {{ i }} 个
+            {{ i }} 组
           </button>
         </view>
         <view class="plain2boxs">
