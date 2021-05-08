@@ -1,8 +1,8 @@
 {
   "miniprogramRoot": "./dist",
   "projectname": "RandomNumber",
-  "description": "快8助手",
-  "appid": "wx3e903f6dba36c5c3",
+  "description": "快乐数你",
+  "appid": "wxcdf2a5d559688754",
   "setting": {
     "urlCheck": true,
     "es6": false,
